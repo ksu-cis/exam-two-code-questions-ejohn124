@@ -11,14 +11,14 @@
             <TextBlock FontSize="40">Customize Cobbler</TextBlock>
             <TextBlock FontSize="20">Serve With Icecream?</TextBlock>
             <StackPanel Orientation="Horizontal">
-                <Button Width="100" Height="50" IsEnabled="True">Yes</Button>
-                <Button Width="100" Height="50" IsEnabled="True">No</Button>
+                <Button Width="100" Height="50" Name ="IceCreamYes" Click="Button_Click">Yes</Button>
+                <Button Width="100" Height="50" Name="IceCreamNo" Click="Button_Click">No</Button>
             </StackPanel>
             <TextBlock FontSize="20">Choose Filling</TextBlock>
             <StackPanel Orientation="Horizontal">
-                <Button Width="100" Height="50" Click="Button_Click">Cherry</Button>
-                <Button Width="100" Height="50">Peach</Button>
-                <Button Width="100" Height="50">Blueberry</Button>
+                <Button Width="100" Height="50" Click="Button_Click" Name="CherryButton">Cherry</Button>
+                <Button Width="100" Height="50" Click="Button_Click" Name="PeachButton">Peach</Button>
+                <Button Width="100" Height="50" Click="Button_Click" Name="BlueberryButton">Blueberry</Button>
             </StackPanel>
         </StackPanel>
     </Grid>
